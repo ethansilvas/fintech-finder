@@ -10,7 +10,11 @@ The web UI is created using [Streamlit](https://streamlit.io/)
 
 Using Ganache, I create a personal Ethereum blockchain that the code connects to using Web3.py. With the Ethereum blockchain, transactions between the provided sample wallet addresses can be performed through the streamlit UI. 
 
-![Screenshot of app main screen showing side bar that allows user to hire fintech professionals and pay them per hour using the mock ganache ethereum blockchain](./Resources/Readme_Images/app_main_screen.png)
+![Screenshot of app main screen showing side bar that allows user to hire fintech professionals and pay them per hour using the mock ganache ethereum blockchain](./Resources/Images/app_main_screen.png)
+
+Transactions are sent by selecting one of the FinTech professionals and defining an amount of hours you would like to hire them for. The app then outputs the hourly rate, Ethereum address, and the total wage in Ether depeding on your specified input. Using the "Send Transaction" button will then initiate a blockchain transaction by creating a block and distributing the required Ether from the Ganache wallet. 
+
+![Gif showing the user specifying a fintech professional, setting a small number of hours, and using the send transaction button to initiate the blockchain transaction](./Resources/Gifs/send_transaction.gif)
 
 
 
