@@ -16,7 +16,22 @@ Transactions are sent by selecting one of the FinTech professionals and defining
 
 ![Gif showing the user specifying a fintech professional, setting a small number of hours, and using the send transaction button to initiate the blockchain transaction](./Resources/Gifs/send_transaction.gif)
 
+In the Ganache UI you will be able to see that your wallet has reflected the transaction by decreasing the amount of Ether in your account balance. 
 
+![Screenshot of Ganache UI showing the first wallet having a reduced (less than 100) wallet balance after making several transactions through the app](./Resources/Images/account_balance.png)
+
+You can then verify further that the transactions were sent to the correct addresses by comparing the defined sample FinTech professional account numbers to the ones in each transaction listed in the Ganache transaction history. 
+
+![Hard coded list of FinTech professionals and the sample account addresses](./Resources/Images/candidates.png)
+![Screenshot of Ganache transaction between ganache wallet and sample FinTech professional](./Resources/Images/transaction_example.png)
+
+The Ganache transaction history will also show all of the transactions made using the app. 
+
+![List of transactions in the Ganache UI](./Resources/Images/transaction_history.png)
+
+As you add transactions you will also be able to see them instantly reflected in the Ganache transaction history. 
+
+![Gif showing a new transaction appear in the Ganache transaction history after being sent using the UI](./Resources/Gifs/new_transaction.gif)
 
 ---
 
