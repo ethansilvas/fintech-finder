@@ -62,7 +62,7 @@ def send_transaction(w3, account, to, wage):
         "from": account.address,
         "value": value,
         "gas": gasEstimate,
-        "gasPrice": 0,
+        "gasPrice": 20000000000,    # change this line to resolve "Transaction's maxFeePerGas (0) is less than the block's baseFeePerGas (392695905)"
         "nonce": w3.eth.getTransactionCount(account.address)
     }
 
