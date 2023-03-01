@@ -38,8 +38,10 @@ As you add transactions you will also be able to see them instantly reflected in
 ## Technologies
 
 This is a Python 3.7 project ran using the following dependencies:
-1. [Pandas](https://github.com/pandas-dev/pandas) (1.3.5) - DataFrame objects
-2. [Streamlit](https://streamlit.io/) (1.18.1) - Web interface
+1. [Streamlit](https://streamlit.io/) (1.18.1) - Web interface
+2. [Web3.py](https://web3py.readthedocs.io/en/v5/) (5.17) - Blockchain tools
+3. [BIP44](https://pypi.org/project/bip44/) (0.1.3) - HD wallet creation
+4. [Ganache](https://trufflesuite.com/ganache/) (2.7.0) - Ethereum blockchain environment
 
 ---
 
@@ -48,8 +50,9 @@ This is a Python 3.7 project ran using the following dependencies:
 This project was ran using an [Anaconda](https://docs.anaconda.com/) dev environment but assuming you have Python installed you will likely also be able to run this app after installing the required dependencies with Pip: 
 
 ```Python
-pip install pandas
 pip install streamlit
+pip install web3==5.17
+pip install bip44
 ```
 
 The [requirements.txt](./Resources/requirements.txt) file in the Resources folder has the exact anaconda environment that I used in creating this project if you would like to copy it. 
@@ -64,7 +67,7 @@ Then install the requirements with `conda install --name myenv --file requiremen
 
 To run this app locally simply open a terminal window with this project as the main directory and type `streamlit run fintech_finder.py`. This will open the Streamlit web UI in your browser on localhost 8501. 
 
-Caching is used to save any blockchain data that you use while running the app, however this data is lost after the session is over. 
+You will also need to open a Ganache workspace but a simple "Quickstart" workspace should be enough to test all of this app's functionalities.
 
 ---
 
