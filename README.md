@@ -1,10 +1,16 @@
 # FinTech Finder (Blockchain Payment System) - UW FinTech BootCamp Module 19 Challenge
 
+This project is my blockchain payment app that uses [Ganache](https://trufflesuite.com/ganache/) and [Web3.py](https://web3py.readthedocs.io/en/v5/) to integrate Ethereum transactions to hire FinTech professionals.
 
+The web UI is created using [Streamlit](https://streamlit.io/)
 
 ---
 
 ## Summary
+
+Using Ganache, I create a personal Ethereum blockchain that the code connects to using Web3.py. With the Ethereum blockchain, transactions between the provided sample wallet addresses can be performed through the streamlit UI. 
+
+![Screenshot of app main screen showing side bar that allows user to hire fintech professionals and pay them per hour using the mock ganache ethereum blockchain](./Resources/Readme_Images/app_main_screen.png)
 
 
 
